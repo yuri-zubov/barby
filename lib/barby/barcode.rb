@@ -1,7 +1,7 @@
 module Barby
 
 
-  #The base class for all barcodes. It includes some method_missing magic
+  # The base class for all barcodes. It includes some method_missing magic
   #that is used to find registered outputters.
   #
   #The only interface requirement of a barcode class is that is has an encoding
